@@ -10,11 +10,10 @@
     margin: 0 auto;
 }
 
-/* HEADER */
 .header {
     background-color: #1A1A1A;
     padding-top: 36px;
-    padding-bottom: 200px;
+    padding-bottom: 80px;
 }
 .navigation {
     display: flex;
@@ -93,6 +92,7 @@
 .header-info-block {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .card-info {
@@ -100,7 +100,9 @@
 }
 
 .card-info-img {
-    display: flex;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 .info-title {
     font-size: 20px;
@@ -199,4 +201,86 @@
     letter-spacing: 1.5px;
     text-align: center;
     display: block;
+}
+
+.main-content {
+    background-color: #fff;
+}
+
+.course-section-title {
+    font-weight: 600;
+    font-size: 70px;
+    color: #1A1A1A;
+    margin: 60px 0;
+}
+
+.course-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.card-big {
+    width: 540px;
+}
+.card-small {
+    width: 360px;
+}
+
+.img-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.img-card-1 { background-image: url('img/card-1.png'); }
+.img-card-2 { background-image: url('img/card-2.png'); }
+.img-card-3 { background-image: url('img/card-3.png'); }
+.img-card-4 { background-image: url('img/card-4.png'); }
+
+.btn-time {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #111;
+    padding: 6px 12px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.btn-rating {
+    width: 77px;
+    background-color: #111;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.course-category {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #BABABA;
+    font-weight: 400;
+    margin: 18px 0;
+}
+.course-title {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+}
+.course-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #767676;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
 }
